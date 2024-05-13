@@ -1,4 +1,4 @@
-# Задание 5.11.1 (HW-03)
+# Проект 'Новостной сайт'
 
 <table>
   <tr>
@@ -11,3 +11,12 @@
     </td>
   </tr>
 </table>
+
+## Использованные технологии
+
+- [HTML](https://www.w3.org/TR/2021/SPSD-html52-20210128/)
+- [CSS](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics)
+
+## Как открыть/запустить
+
+Зайти в папку сайта в файловом менеджере, кликнуть 2 раза по файлу index.html.
