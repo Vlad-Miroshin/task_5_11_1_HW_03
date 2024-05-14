@@ -1,47 +1,106 @@
+:root {
+    --main-font-family: "Roboto", sans-serif;
+    --main-font-size: 16px;
+}
+
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: var(--main-font-family); 
+    font-size: var(--main-font-size); 
 }
 
 header {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 250px;
     background-color: #d0d1d3;
-    background: url(https://unsplash.com/photos/business-newspaper-article-WYd_PkCa1BY) bottom no-repeat;
+    background: url("/images/news.jpg") bottom no-repeat;
     background-size: cover;
 }
 
+a {
+    text-decoration: none;
+}
+
 h1 {
-    color: #cbbe94;
+    color: #f3e9c6;
     font-size: 4rem;
 }
 
-footer {
-    padding-top: 20px;
-    padding-bottom: 60px;
-    text-align: center;
+.section {
+    padding-top: 2rem;    
 }
 
-footer .links {
+.article {
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    padding: 2rem;
+}
+
+.article__container {
+    padding-left: 1rem;    
+}
+
+.article__image {
+    max-width: 300px;
+}
+
+.article__header {
+    font-size: 2rem;
+}
+
+.article__header a{
+    font-size: 1rem
+}
+
+.article__text {
+    font-size: 1rem;
+}
+
+.article__publisher {
+    padding-top: 1rem;
+    font-size: .75rem;
+}
+
+.article__publisher a{
+    text-decoration: none;
+}
+
+.article__date {
+    font-size: .75rem;
+}
+
+.links {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
  
 
-footer .link__item > a {
+.link__item > a {
     color: #636b6f;
     text-transform: uppercase;
-    padding: 0 25px;
+    padding: 0 1.5rem;
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
 }
 
+.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
 .copyright {
+    margin-top: 4rem;
+    font-size: .75rem;
     color: rgb(108, 117, 125);
 }
 
+.copyright a{
+    text-decoration: none;
+}

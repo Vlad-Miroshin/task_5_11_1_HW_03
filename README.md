@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td>
-      <a href="https://www.w3.org/TR/2021/SPSD-html52-20210128/"><img src="./images/html_css.png"></img></a>
+      <img src="./images/html_css.png"></img>
     </td>
     <td>
       Учебное задание 5.11.1 (HW-03) <a href="https://skillfactory.ru/">Skillfactory</a><br> 
@@ -15,7 +15,9 @@
 ## Использованные технологии
 
 - [HTML](https://www.w3.org/TR/2021/SPSD-html52-20210128/)
+- [Google fonts (Roboto)](https://fonts.google.com/specimen/Roboto)
 - [CSS](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics)
+  - CSS Variables
 
 ## Как открыть/запустить
 

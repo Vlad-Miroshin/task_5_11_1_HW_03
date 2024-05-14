@@ -4,25 +4,141 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Новости</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Новости астрономии</title>
 </head>
 <body>
      <header>
-        <h1>Новости</h1>
+        <h1>Новости астрономии</h1>
     </header>
 
-     <section class="news"> 
-        <article>
-            <a href="#" id="news_1">
-                <h2>Заголовок новости</h2>
-            </a>
-            <div class="article-meta">Опубликовал <a href="#">Василий Петров</a> <date>13 июня 2020</date></div>
-            <!-- <img src="./images/news1.jpg" alt="Новость 1"> -->
-            <p>Краткое описание новости</p>
-        </article>
-     </section>
+     <section class="section">
 
-     <footer>
+        <article class="article">
+            <img class="article__image" src="/images/news_1.jpg" alt="Новый телескоп">
+            <div class="article__container">
+                <div class="article__header">
+                    <a href="#" id="news_1">
+                        <h2>Телескоп горизонта событий в деле!</h2>
+                    </a>
+                </div>
+                <div class="article__text">
+                    <p>
+                        Введён в эксплуатацию <strong>Телескоп горизонта событий</strong> (англ. Event Horizon Telescope, EHT) — 
+                        проект по созданию большого массива телескопов, 
+                        состоящего из глобальной сети радиотелескопов и объединяющего 
+                        данные нескольких станций интерферометрии с очень длинной базовой линией 
+                        (VLBI) по всей Земле.
+                    </p>
+                    <p>
+                        Первые снимки уже вызвали споры учёных - 
+                        во вселенной не всё так однозначно...
+                    </p>
+                </div>
+                <div class="article__publisher">Опубликовал <a href="#">Василий Петров</a></div>
+                <div class="article__date"><date>10 мая 2024</date></div>
+            </div>
+        </article>
+
+        <article class="article">
+            <img class="article__image" src="/images/news_2.jpg" alt="Затмение">
+            <div class="article__container">
+                <div class="article__header">
+                    <a href="#" id="news_2">
+                        <h2>Полное солнечное затмение</h2>
+                    </a>
+                </div>
+                <div class="article__text">
+                    <p>
+                        Любители астрономии, профессионалы и все желающие 
+                        смогут наблюдать на территории нашей страны 12 августа 2026 года (Полуостров Таймыр).
+                        К вашим услугам специальный самолёт, с борта которого наблюдать затмение будет особенно комфортно.
+                        Созданы отличные условия для фотосъёмки, затмение будет наблюдаться на 90 секунд дольше, чем с земли.
+                    </p>
+                    <p>
+                        Билеты уже доступны в предзаказе по специальной цене.
+                    </p>
+                </div>
+                <div class="article__publisher">Опубликовал <a href="#">Денис Комаров</a></div>
+                <div class="article__date"><date>12 апреля 2024</date></div>
+            </div>
+        </article>
+
+        <article class="article">
+            <img class="article__image" src="/images/news_3.jpg" alt="Скафандр">
+            <div class="article__container">
+                <div class="article__header">
+                    <a href="#" id="news_2">
+                        <h2>Новый аттракцион для космических туристов</h2>
+                    </a>
+                </div>
+                <div class="article__text">
+                    <p>
+                        Свободный полёт в скафандре под управлением искусственного интеллекта. 
+                        Никакой привязи к космической станции - полная свобода космического полёта.
+                    </p>
+                    <p>
+                        Специальный страховой полис заменит страховочный трос.
+                    </p>
+                </div>
+                <div class="article__publisher">Опубликовал <a href="#">Виктор Спиридонов</a></div>
+                <div class="article__date"><date>1 апреля 2024</date></div>
+            </div>
+        </article>
+
+        <article class="article">
+            <img class="article__image" src="/images/news_4.jpg" alt="Парад планет">
+            <div class="article__container">
+                <div class="article__header">
+                    <a href="#" id="news_2">
+                        <h2>Все на парад!</h2>
+                    </a>
+                </div>
+                <div class="article__text">
+                    <p>
+                        Выравнивания (или парады) планет – это зрелищные астрономические события, 
+                        которые можно наблюдать невооруженным глазом. 
+                        Следующий парад планет будет 3 июня 2024 года. 
+                    </p>
+                    <p>
+                        Чтобы легко найти все планеты на небе, 
+                        воспользуйтесь бесплатным приложением Sky Tonight. 
+                        И не беспокойтесь, если вы только начинаете знакомиться с ночным небом. 
+                        Приложение удобно в использовании и подходит как новичкам, так и профессионалам.
+                    </p>
+                </div>
+                <div class="article__publisher">Опубликовал <a href="#">Тамара Зайцева</a></div>
+                <div class="article__date"><date>17 марта 2024</date></div>
+            </div>
+        </article>
+
+        <article class="article">
+            <img class="article__image" src="/images/news_5.jpg" alt="Анонс Сергей Попов">
+            <div class="article__container">
+                <div class="article__header">
+                    <a href="#" id="news_2">
+                        <h2>Зачем нужна астрономия?</h2>
+                    </a>
+                </div>
+                <div class="article__text">
+                    <p>
+                        Астрофизик Сергей Попов рассказывает, какая практическая 
+                        польза от астрономии в нашей повседневной жизни и в перспективе. 
+                    </p>
+                    <p>
+                        Смотрите запись онлайн-лекции, прочитанной в лектории "Живой город".
+                    </p>
+                </div>
+                <div class="article__publisher">Опубликовал <a href="#">Василий Петров</a></div>
+                <div class="article__date"><date>3 февраля 2024</date></div>
+            </div>
+        </article>
+
+    </section>
+
+     <footer class="footer">
         <nav>   
             <!-- Используем маркированный список для блока навигации -->
             <ul class="links">
