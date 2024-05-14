@@ -12,6 +12,7 @@ body {
 
 a {
     text-decoration: none;
+    color: inherit;
 }
 
 h1 {
@@ -25,7 +26,7 @@ h1 {
     align-items: center;
     justify-content: center;
     height: 250px;
-    background: url("/images/news.jpg") bottom no-repeat;
+    background: url("../images/news.jpg") bottom no-repeat;
     background-size: cover;
 }
 
