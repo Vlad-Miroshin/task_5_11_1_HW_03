@@ -15,7 +15,7 @@
 ## Использованные технологии
 
 - [HTML](https://www.w3.org/TR/2021/SPSD-html52-20210128/)
-- [Google fonts (Roboto)](https://fonts.google.com/specimen/Roboto) Загрузка шрифта через Google API
+- [Google fonts](https://fonts.google.com/specimen/Roboto) Загрузка шрифта Roboto через Google API
 - [CSS](https://developer.mozilla.org/ru/docs/Learn/Getting_started_with_the_web/CSS_basics) Также, применены декларации не описанные в примере к заданию.
 - [CSS Variables](https://developer.mozilla.org/ru/docs/Web/CSS/Using_CSS_custom_properties) Переменные CSS.
 - Незначительно изменён дизайн примера.

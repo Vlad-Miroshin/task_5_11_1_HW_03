@@ -63,10 +63,6 @@ h1 {
     font-size: .75rem;
 }
 
-.article__publisher a{
-    text-decoration: none;
-}
-
 .article__date {
     font-size: .75rem;
 }
@@ -85,6 +81,7 @@ h1 {
     padding: .25rem;
     margin-right: .75rem;
     box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 1px black;
 }
 
 .links {
